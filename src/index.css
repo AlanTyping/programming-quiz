@@ -75,8 +75,6 @@ div {
 }
 
 .answer:hover {
-  color: white;
-  background-color: var(--blue);
   transform: scale(1.05);
   transition: 70ms;
 }
