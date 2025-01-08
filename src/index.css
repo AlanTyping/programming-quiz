@@ -12,7 +12,7 @@
 }
 
 body {
-  background: orange;
+  background: rgb(0, 0, 0);
   margin: 0px;
   padding: 0px;
   display: flex;
@@ -32,7 +32,7 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right bottom, rgb(255, 255, 255, 0.8), rgb(255, 255, 255, 0.3));
+  background: rgb(43, 43, 43);
   border-radius: 10px;
 }
 
@@ -42,14 +42,16 @@ div {
   align-items: center;
   flex-direction: column;
 }
+
 .question {
   cursor: default;
-  background-color: white;
+  color: white;
   width: 350px;
   padding: 10px;
   font-size: 1.3rem;
+  font-weight: bold;
   display: flex;
-  border-radius: 10px;
+  border-radius: 5px;
   justify-content: center;
   align-items: center;
 }
@@ -62,11 +64,11 @@ div {
 }
 
 .answer {
-  background-color: white;
-  color: black;
+  color: white;
+  background-color: rgb(63, 63, 63);;
   padding: 10px;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
   width: 200px;
   display: flex;
   justify-content: center;
@@ -81,7 +83,8 @@ div {
 
 .score {
   cursor: default;
-  font-size: 1.2rem;
+  color: rgb(212, 212, 212);
+  font-size: 1rem;
   border-radius: 1.2rem;
   display: flex;
   justify-content: center;
@@ -95,13 +98,13 @@ div {
 }
 
 .results {
+  color: white;
   display: flex;
   width: 80%;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-radius: 10px;
-  background-color: white;
+  border-radius: 5px;
 }
 
 .congratulations {
@@ -116,15 +119,17 @@ div {
 
 .next-button {
   padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
   font-size: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: var(--blue);
+  border:rgb(224, 224, 224) 1px solid;
   border-radius: 10px;
   width: auto;
-  margin: 10px;
+  margin: 30px;
   cursor: pointer;
 }
 
@@ -138,12 +143,12 @@ div {
 }
 
 .correct-answer {
-  background-color: rgb(0, 204, 0);
+  background-color: rgb(0, 158, 0);
   color: white;
 }
 
 .wrong-answer {
-  background-color: rgb(253, 24, 24);
+  background-color: rgb(146, 11, 11);
   color: white;
 }
 
@@ -160,7 +165,7 @@ div {
   flex-direction: column;
   margin: 10px;
   font-size: 0.95rem;
-  border: 2px solid var(--blue);
+  border: 2px solid rgb(226, 226, 226);
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px;
 }

@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import React, { useContext } from "react";
 import Question from "./Question";
 import { QuizContext } from "../contexts/quiz";
 import ghicon from '../../src/ghicon.png';
@@ -27,7 +27,7 @@ const Quiz = () => {
           </div>
           <div className="footer-container">
             <a href="https://github.com/AlanTyping" target='blank'>
-              <img id="icon" src={ghicon} />
+              <img alt='icon' id="icon" src={ghicon} />
             </a>
             Github Repository
           </div>
